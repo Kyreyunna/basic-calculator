@@ -33,25 +33,26 @@ public class BasicCalculator {
         //int num 1 (action "-") int num2 = num3
         String action= scanner.nextLine();
 
-        if (action == "Multiply")
 
-        System.out.println(num1 + "*" + num2 + "=" + num5);
+        if (action == "Subtract") {
+            int num3 = num1 - num2;
+            System.out.println(num1 + "-" + num2 + "=" + num3);
+        }
 
+        if (action == "Add"){
+            int num4 = num1 + num2;
+            System.out.println(num1 + "+" + num2 + "=" + num4);
+        }
 
-        System.out.println("Preparing to do math...");
+        if (action == "Multiply"){
+            int num5 = num1 * num2;
+            System.out.println(num1 + "*" + num2 + "=" + num5);
+        }
 
-        int num3 = num1 - num2;
-        System.out.println(num1 + "-" + num2 + "=" + num3);
-
-        int num4 = num1 + num2;
-        System.out.println(num1 + "+" + num2 + "=" + num4);
-
-        int num5 = num1 * num2;
-        System.out.println(num1 + "*" + num2 + "=" + num5);
-
-        float num6 = num1 / num2;
-        System.out.println(num1 + "/" + num2 + "=" + num6);
-
+        if (action == "Division"){
+            float num6 = num1 / num2;
+            System.out.println(num1 + "/" + num2 + "=" + num6);
+        }
 
 
         //Possible calculations:
