@@ -23,21 +23,35 @@ public class BasicCalculator {
         System.out.println("What do you want to do? ");
 
         System.out.println(" Enter " +
-                "        (A)dd" +
-                "        (S)ubtract" +
-                "        (M)ultiply" +
-                "        (D)ivide" +
+                "        Add" +
+                "        Subtract" +
+                "        Multiply" +
+                "        Divide" +
                 "        Please select an option: ");
 
 //      action=what you chose
         //int num 1 (action "-") int num2 = num3
         String action= scanner.nextLine();
 
+        if (action == "Multiply")
+
+        System.out.println(num1 + "*" + num2 + "=" + num5);
+
+
         System.out.println("Preparing to do math...");
 
         int num3 = num1 - num2;
-
         System.out.println(num1 + "-" + num2 + "=" + num3);
+
+        int num4 = num1 + num2;
+        System.out.println(num1 + "+" + num2 + "=" + num4);
+
+        int num5 = num1 * num2;
+        System.out.println(num1 + "*" + num2 + "=" + num5);
+
+        float num6 = num1 / num2;
+        System.out.println(num1 + "/" + num2 + "=" + num6);
+
 
 
         //Possible calculations:
