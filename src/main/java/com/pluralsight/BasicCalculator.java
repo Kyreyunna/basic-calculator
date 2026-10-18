@@ -23,11 +23,11 @@ public class BasicCalculator {
         System.out.println("What do you want to do? ");
 
         System.out.println(" Enter " +
-                "        //(A)dd" +
-                "        //(S)ubtract" +
-                "        //(M)ultiply" +
-                "        //(D)ivide" +
-                "        //Please select an option: ");
+                "        (A)dd" +
+                "        (S)ubtract" +
+                "        (M)ultiply" +
+                "        (D)ivide" +
+                "        Please select an option: ");
 
 //      action=what you chose
         //int num 1 (action "-") int num2 = num3
@@ -37,7 +37,7 @@ public class BasicCalculator {
 
         int num3 = num1 - num2;
 
-        System.out.println(num1 + "-" + action + num2 + "=" + num3);
+        System.out.println(num1 + "-" + num2 + "=" + num3);
 
 
         //Possible calculations:
