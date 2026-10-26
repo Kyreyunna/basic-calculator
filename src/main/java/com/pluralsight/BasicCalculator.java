@@ -31,10 +31,10 @@ public class BasicCalculator {
 
 //      action=what you chose
         //int num 1 (action "-") int num2 = num3
-        String action= scanner.nextLine();
+       // String action= scanner.nextLine();
 
-        int solution = num1 - num2;
-        System.out.println(num1 + "-" + num2 + "=" + solution);
+        int solution = num1 * num2;
+        System.out.println(num1 + "*" + num2 + "=" + solution);
 
 
 //        int solution = ;
